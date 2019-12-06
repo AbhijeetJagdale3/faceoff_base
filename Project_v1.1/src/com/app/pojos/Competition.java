@@ -6,6 +6,7 @@ import javax.persistence.Table;
 @Table
 @Entity
 public class Competition extends AbstractedEntity {
+	//newly added need some more work
 	private String nameOfComp; 
 	
 	private User user1;
