@@ -47,7 +47,9 @@ public class CompetitionDaoImpl implements ICompetitionDao {
 	}
 
 	public String acceptInv(Integer uid, Integer invitatorId) {
-		System.out.println("In " + getClass().getName() + " " + new Exception().getStackTrace()[0].getMethodName());
+		System.out.println("In " + getClass().getName() + " " + new Exception().getStackTrace()[0].getMethodName()+uid+" "+invitatorId);
+		
+		
 		return "Successfully removed invitation";
 	}
 

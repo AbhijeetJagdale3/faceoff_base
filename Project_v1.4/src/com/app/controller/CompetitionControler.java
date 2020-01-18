@@ -37,7 +37,7 @@ public class CompetitionControler {
 	public String acceptInv(@RequestParam Integer uid,RedirectAttributes flashMap,HttpSession session) 
 	{
 		System.out.println("In "+getClass().getName()+" "+new Exception().getStackTrace()[0].getMethodName());
-		flashMap.addFlashAttribute("status", dao.removeInvitation(uid, ((User)session.getAttribute("user")).getId()));
+		flashMap.addFlashAttribute("status", dao.acceptInv(uid, ((User)session.getAttribute("user")).getId()));
 		return "redirect:/comp/invlist";
 	};
 	@GetMapping("/remove")
