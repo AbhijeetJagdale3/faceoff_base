@@ -8,11 +8,27 @@
 </head>
 <body>
 	
-	<h4>
-		<a href="user/login">User Login</a>
-	</h4>
-	<h4>
-		<a href="user/register">User Register</a>
-	</h4>
+	<h5>${requestScope.status}</h5>
+	<form method="post" action="user/login">
+		<table>
+			<tr>
+				<td>Email</td>
+				<td><input type="text" name="email" />
+			</tr>
+
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" />
+			</tr>
+
+			<tr>
+				<td><input type="submit" value="Login" /></td>
+			</tr>
+
+		</table>
+
+	</form>
+	
+<h5><a href=user/register>Register New User</a></h5>
 </body>
 </html>

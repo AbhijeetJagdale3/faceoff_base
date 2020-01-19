@@ -14,18 +14,6 @@
 <h4 style="color: red;"></h4>
 	<table>
 		<tr>
-			<td><a href="<sp:url value='/shayari/add'/>">Add New Shayari</a></td>
-			<td></td>
-			<td><a href="<sp:url value='/shayari/show'/>">Show My
-					Shayari</a></td>
-		</tr>
-		<tr>
-			<td><a href="<sp:url value='/poem/add'/>">Add New Poem</a></td>
-			<td></td>
-			<td><a href="<sp:url value='/poem/show'/>">Show My poem</a></td>
-		</tr>
-		<tr></tr>
-		<tr>
 			<td><a href="<sp:url value='/comp/invlist'/>">See All
 					Invitation</a></td>
 		</tr>
@@ -33,6 +21,14 @@
 			<td><a href="<sp:url value='/user/alluser'/>">See All User</a></td>
 		</tr>
 	</table>
+	
+	
+	
+	
+	
+	
+	
+	
 	<form  action="<sp:url value='/user/search'/>">
 		<table>
 			<tr>
